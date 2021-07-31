@@ -13,7 +13,7 @@ with nodemon.
 https://stackoverflow.com/questions/36878255/allow-access-control-allow-origin-header-using-html5-fetch-api by the author 
 David Scales
 7) The mode must be set to CORS and should be provided as a second argument in the fetch() function
-8) I thought the issue was fixed but , the issue wasn't fixed. We needed to enable CORS in the server side too and we had to install the CORS package using npm install cors. 
+8) I thought the issue was fixed but , the issue wasn't fixed. We needed to enable CORS in the server side too and we had to install the CORS package using npm install cors. https://stackoverflow.com/questions/43150051/how-to-enable-cors-nodejs-with-express
 ```
 const express = require('express')
 const cors = require('cors')
